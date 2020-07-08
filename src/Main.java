@@ -39,7 +39,7 @@ public class Main
             yearDay+=monthExtraDay[month];
         }
         thisWeekDay=(yearDay+firstWeekDay)%7+1;
-        System.out.println("  M  T  W  T  F  S  S");
+        System.out.println("   M  T  W  T  F  S  S");
         for(int day=1; day-thisWeekDay<monthExtraDay[systemMonth]; day++)
         {
             if(day<thisWeekDay)
